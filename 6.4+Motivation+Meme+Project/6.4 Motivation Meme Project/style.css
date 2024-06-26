@@ -1,0 +1,27 @@
+*{
+  background: black;
+}
+.image_flag{
+  border: 5px solid white;
+  width: 100%;
+}
+h1{
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  background: black;
+  text-align: center;
+}
+p{
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  background: black;
+  text-align: center;
+}
+.content{
+  width: 50%;
+  margin-left: 25%;
+}
