@@ -1,12 +1,14 @@
-function whosPaying(namesArr){
 
-       let lengthOfArr = namesArr.length -1
-       let randomNum = Math.random() * lengthOfArr
-       console.log(Math.round(randomNum))
-       return namesArr[Math.round(randomNum)]
 
+function HouseKeeper(name,yearsOfExperience,cleaningRepertoire) {
+       this.name = name;
+       this.yearsOfExperience = yearsOfExperience;
+       this.cleaningRepertoire = cleaningRepertoire;
+       this.clean = function () {
+           alert("I can clean")
+       }
 }
 
-let namesArr = ['siri','sha','over','not over']
+var houseKeeper1 = new HouseKeeper("Over",2,["bathroom","lobby"])
 
-console.log(whosPaying(namesArr))
+console.log(houseKeeper1.clean())
